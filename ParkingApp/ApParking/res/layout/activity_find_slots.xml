@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#CDCDCD"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="10dp"    
+    tools:context=".MainActivity" >
+    
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="51dp"
+        android:background="#474747" >
+    </LinearLayout>       
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:text="@string/header"
+        android:textColor="#A3A3A3"
+        android:textSize="16sp" />  
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout1"
+        android:layout_alignRight="@+id/linearLayout1"
+        android:layout_marginRight="18dp"
+        android:onClick="requestInfo"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/buttonText"
+        android:textSize="16sp" />
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/list_lots"       
+        android:text="@string/text2"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:layout_below="@id/linearLayout1"/>
+    
+    <ListView
+        android:id="@+id/list_lots"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/textView2" >
+    </ListView>   	
+
+</RelativeLayout>

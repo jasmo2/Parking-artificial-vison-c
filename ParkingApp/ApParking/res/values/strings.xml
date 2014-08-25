@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ApParking</string>
+    <string name="header">Aparcamentos disponibles:</string>
+    <string name="menu_settings">Settings</string>
+    <string name="buttonText">Actualizar</string>
+    <string name="text2"></string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_find_carby_plate">FindCarbyPlate</string>
+    <string name="title_activity_find_slots">FindSlots</string>
+    
+    <string name="main_title_header">Seleccione que desea hacer:</string>
+    <string name="title_button_find_slots">Buscar aparcamientos disponibles</string>
+    <string name="title_button_find_carby_plate">Encontrar mi carro</string>
+    <string name="title_button_find">Buscar</string>
+     <string name="exit">Salir</string>
+
+</resources>
